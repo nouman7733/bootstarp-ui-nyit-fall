@@ -1,3 +1,16 @@
+:root {
+--primary1-main: #FDEDD4;
+--primary2-main: #ffffff;
+--main-font:"Noto Sans";
+--main-text: #101010;
+}
+
+p{
+    font-family: var(--main-font);
+    color: var(--main-text);
+}
+
+h1, h2, h3, h4, h5, h6{}
 .my-button {
-background-color: blueviolet;
+background-color: var(--primary1-main);
 }
