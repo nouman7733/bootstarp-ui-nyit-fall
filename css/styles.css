@@ -2,11 +2,12 @@
 --primary1-main: #FDEDD4;
 --primary2-main: #ffffff;
 --main-font:"Noto Sans";
+--main-font-text:"SF pro";
 --main-text: #101010;
 }
 
 p{
-    font-family: var(--main-font);
+    font-family: var(--main-font-text);
     color: var(--main-text);
 }
 
