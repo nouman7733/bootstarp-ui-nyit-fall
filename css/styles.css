@@ -15,3 +15,57 @@ h1, h2, h3, h4, h5, h6{}
 .my-button {
 background-color: var(--primary1-main);
 }
+
+.custom-navbar {
+    background-color: #393939;
+}
+
+.custom-navbar .navbar-brand {
+    color: white; /* Change navbar text color to white */
+}
+
+.custom-navbar .navbar-brand:hover {
+    color: #3584F6; /* Optional: Change color on hover */
+}
+
+.card {
+    display: flex; /* Enable flexbox */
+    width: 260px; /* Set the width of the card */
+    padding: 20px 16px 16px 16px; /* Set padding */
+    flex-direction: column; /* Arrange children in a column */
+    align-items: center; /* Center align items */
+    gap: 16px; /* Add space between items */
+    text-align: center; /* Center align text */
+    border-radius: 10px; /* Add border radius */
+    background: rgba(246, 246, 246, 0.60); /* Set background color with transparency */
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.60), 
+                0px 0px 2px 0px rgba(0, 0, 0, 0.05), 
+                0px 38px 90px 0px rgba(0, 0, 0, 0.25); /* Add box shadow */
+    backdrop-filter: blur(40px); /* Apply backdrop filter */
+}
+
+.card .btn {
+    display: flex; /* Enable flexbox */
+    width: 228px; /* Set the width of the button */
+    padding: 6px 7px; /* Set padding */
+    justify-content: center; /* Center align items */
+    align-items: flex-start; /* Align items to the start */
+    gap: 10px; /* Add space between items */
+    border-radius: 5px; /* Add border radius */
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.17) 0%, rgba(255, 255, 255, 0.00) 100%), #007AFF; /* Set background gradient */
+}
+
+.full-view-container {
+    height: 100vh; /* Full viewport height */
+    width: 100%; /* Full width */
+    background: linear-gradient(to bottom, #549DD1, #3584F6); /* Blue to white gradient using hex codes */
+}
+
+.full-view-container .text-center h1,
+.full-view-container .text-center p {
+    color: white; /* Change text color to white */
+}
+
+.text-center {
+    text-align: center; /* Center align text */
+}
